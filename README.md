@@ -1,3 +1,3 @@
 # Plaso Log2timeline Scripts
 
-Plaso Log2timeline scripts for easier OS forensics timeline analyze
+Plaso Log2timeline automation script for easier OS forensics timeline analyze
