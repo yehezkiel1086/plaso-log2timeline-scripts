@@ -16,6 +16,16 @@
 #/home/ubuntu/Documents/Webserver.E01
 
 # Create timeline report for unfiltered-webhist
+#psort.py -o dynamic -w \
+#/home/ubuntu/Documents/reports/unfiltered-webhist.csv \
+#/home/ubuntu/Documents/plaso-storage/unfiltered-webhist.dump
+
+# Create plaso storage without filter parsed as linux
+#log2timeline.py --parsers linux --storage-file \
+#/home/ubuntu/Documents/plaso-storage/unfiltered-linux.dump \
+#/home/ubuntu/Documents/Webserver.E01
+
+# Create timeline report for unfiltered-webhist
 psort.py -o dynamic -w \
-/home/ubuntu/Documents/reports/unfiltered-webhist.csv \
-/home/ubuntu/Documents/plaso-storage/unfiltered-webhist.dump
+/home/ubuntu/Documents/reports/unfiltered-linux.csv \
+/home/ubuntu/Documents/plaso-storage/unfiltered-linux.dump
